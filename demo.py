@@ -5,7 +5,6 @@ import numpy as np
 import svgwrite
 
 import drawing
-import lyrics
 from rnn import rnn
 
 
@@ -148,7 +147,7 @@ class Hand(object):
 
         dwg.save()
 
-
+"""
 if __name__ == '__main__':
     hand = Hand()
 
@@ -208,3 +207,4 @@ if __name__ == '__main__':
         biases=biases,
         styles=styles,
     )
+"""
