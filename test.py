@@ -1,22 +1,22 @@
 from demo import Hand
 
 lines = [
-    "Now this is a story all about how",
-    "My life got flipped turned upside down",
-    "And I'd like to take a minute, just sit right there",
-    "I'll tell you how I became the prince of a town called Bel-Air",
+    "This letter certifies that my patient",
+    "name, was under my care from dates",
+    "name suffered from viral gastroenteritis",
+    "experiencing severe nausea, vomiting, diarrhear",
 ]
 biases = [.75 for i in lines]
 styles = [9 for i in lines]
-stroke_colors = ['red', 'green', 'black', 'blue']
-stroke_widths = [1, 2, 1, 2]
+#stroke_colors = ['red', 'green', 'black', 'blue']
+#stroke_widths = [1, 2, 1, 2]
 
 hand = Hand()
 hand.write(
-    filename='img/test.svg',
+    filename='img/test3.svg',
     lines=lines,
     biases=biases,
     styles=styles,
-    stroke_colors=stroke_colors,
-    stroke_widths=stroke_widths
+    #stroke_colors=stroke_colors,
+    #stroke_widths=stroke_widths
 )
